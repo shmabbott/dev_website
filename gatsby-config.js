@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Clicks to Code`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sam Abbott`,
+      summary: `who is lover of all things Salesforce. Sam has 6 years of experience in the Salesforce platform and is working towards becoming a prominent Salesforce Developer. Sam is based out of Phoenix, Arizona and when he is not complaining about the heat, you can find Sam improving his coding skillset, playing guitar, hiking, and chasing tornadoes in the central United States.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A Journey from Admin to Developer.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `shabbott__c`,
     },
   },
   plugins: [

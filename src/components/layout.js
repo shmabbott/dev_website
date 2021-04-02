@@ -7,14 +7,16 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div className="global-wrapper" data-is-root-path={isRootPath}>
+    <div data-is-root-path={isRootPath}>
       <header>
         <Navbar location={location} title={title}></Navbar>
       </header>
-      <main>{children}</main>
-      <footer className="global-footer">
-        © Copyright {new Date().getFullYear()} Sam Abbott
-      </footer>
+      <div className="global-wrapper" >
+        <main>{children}</main>
+        <footer className="global-footer">
+          © Copyright {new Date().getFullYear()} Sam Abbott
+        </footer>
+      </div>
     </div>
   )
 }

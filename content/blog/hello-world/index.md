@@ -1,7 +1,7 @@
 ---
-title: Clicks to Code Kickoff!
+title: Hello World and Welcome
 date: "2021-04-07T22:12:03.284Z"
-description: "Introduction to my vision for Clicks to Code"
+description: "Introduction to Clicks to Code"
 ---
 
 

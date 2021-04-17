@@ -12,8 +12,8 @@ const Navbar = ({ location, title, children }) => {
       </div>
       <div class="basic-nav-items">
         <a href="/">Home</a>
-        <a href="../blogs">Blog</a>
-        <a href="../about">About</a>
+        <a href="/blogs">Blog</a>
+        <a href="/about">About</a>
       </div>
     </div>
   )

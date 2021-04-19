@@ -6,7 +6,7 @@ const Navbar = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div className="navbar" data-is-root-path={isRootPath}>
+    <div class="navbar" data-is-root-path={isRootPath}>
       <div class="nav-brand">
         <a href="/">{title}</a>
       </div>

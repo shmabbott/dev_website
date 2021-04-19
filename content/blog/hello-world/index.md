@@ -15,7 +15,7 @@ Clicks to Code is a custom blog website that is built on Gatsby JS. The idea is 
 
 ### About The Author
 
-Sam, the Author of Clicks to Code, is based out of Phoenix, AZ and lives with his wife Andrea and dog Emma. He has 6 years of experience with the Salesforce platform and has held roles in support, administration, and development. After seeing the value that custom code can bring to an organization, Sam decided to pursue Development as his main career preference. 
+Sam, the Author of Clicks to Code, is based out of Phoenix, AZ and lives with his wife Andrea and dog Emma. He has 6 years of experience with the Salesforce platform and has held roles in support, administration, and development. Sam recently began focusing more on his development skillset after seeing the value that custom code can bring to an organization.
 
 In addition to Salesforce, Sam enjoys studying web development, eating at local restaurants with his wife Andrea, taking his dog Emma for walks, playing guitar, photographing lightning and tornadoes in the central U.S., and reading nonfiction books.
 

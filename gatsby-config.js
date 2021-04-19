@@ -6,7 +6,7 @@ module.exports = {
       summary: `who is lover of all things Salesforce. Sam has 6 years of experience in the Salesforce platform and is working towards becoming a prominent Salesforce Developer. Sam is based out of Phoenix, Arizona and when he is not complaining about the heat, you can find Sam improving his coding skillset, playing guitar, hiking, and chasing tornadoes in the central United States.`,
     },
     description: `A Journey from Admin to Developer.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://clickstocode.dev`,
     social: {
       twitter: ``,
     },

@@ -143,6 +143,7 @@ h6 {
   font-size: var(--fontSize-1);
 }
 
+
 h1 > a {
   color: inherit;
   text-decoration: none;
@@ -157,6 +158,7 @@ h6 > a {
   color: inherit;
 }
 
+
 /* Prose */
 
 p {
@@ -169,7 +171,7 @@ p {
 
 ul,
 ol {
-  margin-left: var(--spacing-0);
+  margin-left: var(--spacing-10);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
@@ -305,27 +307,38 @@ table thead tr th {
 }
 
 .navbar {
-  overflow : hidden;
-   background-color: #333;
+  overflow: hidden;
+  background: linear-gradient(45deg, rgba(13,59,102,1) 7%, rgba(255,46,99,.85) 18%, rgba(37,42,52,1) 30%);
+  border-bottom: 5px solid;
+  border-image: linear-gradient(45deg, rgba(13,59,102,1) 7%, rgba(255,46,99,.85) 18%); 
+  border-image-slice: 10;
+  display: flex;
 }
 
 .navbar a {
-  float: left;
-  color: #f2f2f2;
+  color: #eaeaea;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding : 8px 5px 15px 5px;
 }
 
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
+.navbar .nav-brand {
+  padding : 12px 10px;
+  margin-left: 1%;
 }
 
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
+.navbar .nav-items {
+  padding : 12px 10px;
+  margin : 0 auto 0 auto;
+}
+
+.navbar .nav-items a{
+  margin-right: 50px;
+}
+
+.navbar .nav-items a:hover {
+  background-color: rgb(255,46,99, .85);
 }
 
 /* Media queries */

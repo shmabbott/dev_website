@@ -11,9 +11,9 @@ const Navbar = ({ location, title, children }) => {
         <Link to="/">{title}</Link>
       </div>
       <div class="nav-items">
-        <Link to="/">Home</Link>
-        <Link to="/blogs">Blog</Link>
-        <Link to="/about">About</Link>
+        <Link to="/" activeClassName="active">Home</Link>
+        <Link to="/blogs" activeClassName="active">Blog</Link>
+        <Link to="/about" activeClassName="active">About</Link>
       </div>
     </div>
   )

@@ -343,6 +343,10 @@ table thead tr th {
   background-color: rgb(255,46,99, .85);
 }
 
+.navbar .nav-items .active {
+  background-color: rgb(255,46,99, .85);
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {

@@ -8,12 +8,12 @@ const Navbar = ({ location, title, children }) => {
   return (
     <div class="navbar" data-is-root-path={isRootPath}>
       <div class="nav-brand">
-        <a href="/">{title}</a>
+        <Link to="/">{title}</Link>
       </div>
       <div class="nav-items">
-        <a href="/">Home</a>
-        <a href="/blogs">Blog</a>
-        <a href="/about">About</a>
+        <Link to="/">Home</Link>
+        <Link to="/blogs">Blog</Link>
+        <Link to="/about">About</Link>
       </div>
     </div>
   )

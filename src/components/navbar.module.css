@@ -1,0 +1,40 @@
+.navbar {
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    background: linear-gradient(45deg, #0d3b66 7%, rgba(255,46,99,.85) 18%, rgba(37,42,52,1) 30%);
+    border-image: linear-gradient(45deg, rgba(13,59,102,1) 7%, rgba(255,46,99,.85) 18%); 
+    border-image-slice: 10;
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #eaeaea;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 17px;
+    padding : 8px 5px 15px 5px;
+  }
+  
+  .navBrand {
+    padding : 12px 10px;
+    margin-left: 1%;
+  }
+  
+  .navItems {
+    padding : 12px 10px;
+    margin : 0 auto 0 auto;
+  }
+  
+  .navItems a{
+    margin-right: 50px;
+  }
+  
+  .navItems a:hover {
+    background-color: rgb(255,46,99, .85);
+  }
+  
+  .active {
+    background-color: rgb(255,46,99, .85);
+  }

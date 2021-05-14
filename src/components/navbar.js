@@ -14,8 +14,8 @@ const Navbar = ({ location, title, children }) => {
       </div>
       <div className={navbarStyles.navItems}>
         <Link to="/" activeClassName={navbarStyles.active}>Home</Link>
-        <Link to="/blogs" activeClassName={navbarStyles.active}>Blog</Link>
-        <Link to="/about" activeClassName={navbarStyles.active}>About</Link>
+        <Link to="/blogs/" activeClassName={navbarStyles.active} partiallyActive={true}>Blog</Link>
+        <Link to="/about/" activeClassName={navbarStyles.active}>About</Link>
       </div>
     </div>
   )

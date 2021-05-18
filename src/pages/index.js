@@ -24,7 +24,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <p>thid page is under construction.</p>
+      <p>This page is under construction...</p>
     </Layout>
   )
 }

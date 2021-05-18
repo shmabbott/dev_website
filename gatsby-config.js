@@ -121,6 +121,16 @@ module.exports = {
         icon: `src/images/lightning.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          'Press Start 2P',
+          'cursive',
+        ],
+        display: 'swap'
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -1,15 +1,10 @@
 .navbar {
     overflow: hidden;
-    border-style: solid;
-    border-width: 0 0 5px 0;
-    background: linear-gradient(45deg, #0d3b66 7%, rgba(255,46,99,.85) 18%, rgba(37,42,52,1) 30%);
-    border-image: linear-gradient(45deg, rgba(13,59,102,1) 7%, rgba(255,46,99,.85) 18%); 
-    border-image-slice: 10;
     display: flex;
   }
   
   .navbar a {
-    color: #eaeaea;
+    color: white;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
@@ -18,23 +13,39 @@
   }
   
   .navBrand {
+    background: #191716;
+    width: 30%;
+    display : flex;
+    justify-content : center;
+  }
+  .navBrand a{
     padding : 12px 10px;
-    margin-left: 1%;
+    font-size: 24px;
+    background: -webkit-linear-gradient(45deg, #42AAF0, #DE0D92, #DACC3E);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Press Start 2P', cursive;
   }
   
   .navItems {
-    padding : 12px 10px;
-    margin : 0 auto 0 auto;
+    width : 70%;
+    background : #42AAF0;
+    display : flex;
+    justify-content : space-around;
   }
   
   .navItems a{
-    margin-right: 50px;
+    padding : 17px 10px;
+    font-weight: bold;
+    width: 33.334%; /*This needs to be updated if more items are added to navbar*/
   }
   
   .navItems a:hover {
-    background-color: rgb(255,46,99, .85);
+    color: white;
+    background-color: #8ECCF6;
   }
   
-  .active {
-    background-color: rgb(255,46,99, .85);
+  a.active {
+    color: #42AAF0;
+    background-color: white;
   }

@@ -10,7 +10,7 @@ const Navbar = ({ location, title, children }) => {
     <div className={navbarStyles.navbar} data-is-root-path={isRootPath}>
       {children}
       <div className={navbarStyles.navBrand}>
-        <Link to="/">{title}</Link>
+        <Link to="/">{"<"+title+">"}</Link>
       </div>
       <div className={navbarStyles.navItems}>
         <Link to="/" activeClassName={navbarStyles.active}>Home</Link>

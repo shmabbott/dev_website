@@ -126,6 +126,7 @@ module.exports = {
       options: {
         fonts: [
           'Press Start 2P',
+          'Source Code Pro',
           'cursive',
         ],
         display: 'swap'

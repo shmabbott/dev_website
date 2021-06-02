@@ -1,6 +1,9 @@
 .navbar {
+    height: 70px;
+    width: 100%;
     overflow: hidden;
     display: flex;
+    background: #42AAF0;
   }
   
   .navbar a {
@@ -9,32 +12,29 @@
     text-decoration: none;
     white-space: nowrap;
     font-size: 17px;
-    padding: 8px 5px 15px 5px;
   }
   
   .navBrandLong {
-    background: #42AAF0;
     width: 30%;
-    min-width: 400px;
+    min-width: 320px;
     display: flex;
     justify-content: center;
   }
   .navBrandLong a{
-    padding: 12px 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-family: 'Press Start 2P', cursive;
+    padding: 20px;
   }
   
   .navItems {
     width: 70%;
-    background: #42AAF0;
     display: flex;
     justify-content: space-around;
   }
   
   .navItems a{
-    padding: 17px 10px;
+    padding: 20px 20px;
     font-weight: bold;
     width: 33.334%; /*This needs to be updated if more items are added to navbar*/
   }

@@ -1,6 +1,9 @@
 .navbar {
+    height: 70px;
+    width: 100%;
     overflow: hidden;
     display: flex;
+    background: #42AAF0;
   }
   
   .navbar a {
@@ -9,43 +12,54 @@
     text-decoration: none;
     white-space: nowrap;
     font-size: 17px;
-    padding : 8px 5px 15px 5px;
   }
   
   .navBrand {
-    background: #191716;
     width: 30%;
-    display : flex;
-    justify-content : center;
+    min-width: 320px;
+    display: flex;
+    justify-content: center;
   }
   .navBrand a{
-    padding : 12px 10px;
-    font-size: 24px;
-    background: -webkit-linear-gradient(45deg, #42AAF0, #DE0D92, #DACC3E);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    color: white;
     font-family: 'Press Start 2P', cursive;
+    padding: 20px;
   }
   
   .navItems {
-    width : 70%;
-    background : #42AAF0;
-    display : flex;
-    justify-content : space-around;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
   }
   
   .navItems a{
-    padding : 17px 10px;
+    padding: 20px 20px;
     font-weight: bold;
     width: 33.334%; /*This needs to be updated if more items are added to navbar*/
   }
   
   .navItems a:hover {
+    background-color: #92E378;
     color: white;
-    background-color: #8ECCF6;
-  }
-  
+  }  
+
   a.active {
     color: #42AAF0;
     background-color: white;
+  }
+
+  @media (max-width: 900px) {
+
+    .navItems{
+      width: 100%;
+    }
+
+    .navBrand{
+      display: none;
+    }
+
+    .hamburger{
+      display: block;
+    }
   }

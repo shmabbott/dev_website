@@ -14,13 +14,13 @@
     font-size: 17px;
   }
   
-  .navBrandLong {
+  .navBrand {
     width: 30%;
     min-width: 320px;
     display: flex;
     justify-content: center;
   }
-  .navBrandLong a{
+  .navBrand a{
     font-size: 20px;
     color: white;
     font-family: 'Press Start 2P', cursive;
@@ -49,33 +49,14 @@
     background-color: white;
   }
 
-  .hamburger {
-    width: 15%;
-    background: #42AAF0;
-    display: none;
-  }
-
-  .hamburger span{
-    position: relative;
-    display: block;
-    top: 30%;
-    left: 20%;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    background: #92E378;
-    border-radius: 3px;
-
-  }
-
   @media (max-width: 900px) {
 
     .navItems{
-      display: none;
+      width: 100%;
     }
 
-    .navBrandLong{
-      width: 85%;
+    .navBrand{
+      display: none;
     }
 
     .hamburger{

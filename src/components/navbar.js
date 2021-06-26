@@ -9,18 +9,13 @@ const Navbar = ({ location, title, children }) => {
   return (
     <div className={navbarStyles.navbar} data-is-root-path={isRootPath}>
       {children}
-      <div className={navbarStyles.navBrandLong}>
+      <div className={navbarStyles.navBrand}>
         <Link to="/">{"<"+title+">"}</Link>
       </div>
       <div className={navbarStyles.navItems}>
         <Link to="/" activeClassName={navbarStyles.active}>Home</Link>
         <Link to="/blogs/" activeClassName={navbarStyles.active} partiallyActive={true}>Blog</Link>
         <Link to="/about/" activeClassName={navbarStyles.active}>About</Link>
-      </div>
-      <div className={navbarStyles.hamburger}>
-        <span></span>
-        <span></span>
-        <span></span>
       </div>
     </div>
   )

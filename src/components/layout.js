@@ -14,8 +14,8 @@ const Layout = ({ location, title, children }) => {
       </header>
       <div className="global-wrapper" >
         <main>{children}</main>
-        <Footer></Footer>
       </div>
+        <Footer></Footer>
     </div>
   )
 }

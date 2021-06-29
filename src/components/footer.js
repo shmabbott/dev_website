@@ -4,7 +4,12 @@ import * as navbarStyles from "./footer.module.css"
 
 
 const Footer = ({ location, title, children }) => {
-    return(<div></div>);
+
+    return(
+        <div>
+            © Copyright {new Date().getFullYear()} Sam Abbott
+        </div>
+    )
 }
 
 export default Footer;

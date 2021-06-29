@@ -1,6 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -13,9 +14,7 @@ const Layout = ({ location, title, children }) => {
       </header>
       <div className="global-wrapper" >
         <main>{children}</main>
-        <footer className="global-footer">
-          © Copyright {new Date().getFullYear()} Sam Abbott
-        </footer>
+        <Footer></Footer>
       </div>
     </div>
   )

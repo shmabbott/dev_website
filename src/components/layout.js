@@ -8,14 +8,16 @@ const Layout = ({ location, title, children }) => {
   const isRootPath = location.pathname === rootPath
 
   return (
-    <div data-is-root-path={isRootPath}>
+    <div className="main-layout-container" data-is-root-path={isRootPath} >
       <header>
         <Navbar location={location} title={title}></Navbar>
       </header>
       <div className="global-wrapper" >
         <main>{children}</main>
       </div>
+      <footer id="footer1">
         <Footer></Footer>
+      </footer>
     </div>
   )
 }

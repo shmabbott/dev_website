@@ -96,9 +96,16 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color:#7CAFC4;
+  background-color:#4C5257;
   color: white;
   height: 150px;
+  text-align: center;
+}
+
+.footer-github-icon{
+  color: black;
+  height: 30px;
+  width: 30px;
 }
 
 hr {

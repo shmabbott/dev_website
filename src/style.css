@@ -83,8 +83,29 @@ body {
   color: var(--color-text);
 }
 
+.main-layout-container {
+  min-height: 100vh;
+  position: relative;
+}
+
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+
+}
+#footer1{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color:#4C5257;
+  color: white;
+  height: 150px;
+  text-align: center;
+}
+
+.footer-github-icon{
+  color: black;
+  height: 30px;
+  width: 30px;
 }
 
 hr {
@@ -235,6 +256,8 @@ table thead tr th {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
+  position: relative;
+  padding-bottom: 150px; /*Offset 150pixels to keep content from being covered by the footer*/
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -305,6 +328,7 @@ table thead tr th {
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
+
 
 /* Media queries */
 

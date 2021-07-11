@@ -1,9 +1,10 @@
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import * as indexStyle from "./index.module.css"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -15,7 +16,7 @@ const BlogIndex = ({ data, location }) => {
         <SEO title="All posts" />
         <Bio />
         <p>
-          No blog posts found... :'(
+          No blog posts returned....
         </p>
       </Layout>
     )
@@ -24,7 +25,10 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <p>This page is under construction...</p>
+      <div className={indexStyle.introPanel}>
+        <span className={indexStyle.introWelcome}>Hello, I am Sam! 👋</span>
+        <span className={indexStyle.introShortDescription}>I am a Salesforce Developer with over 6 years of experience supporting, administering, and developing custom Salesforce functionality</span>
+      </div>
     </Layout>
   )
 }

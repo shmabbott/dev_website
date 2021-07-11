@@ -1,0 +1,29 @@
+.introPanel {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.introWelcome {
+    font-size: 45px;
+    font-weight: bold;
+    color: gray;
+    line-height: 3;
+}
+
+.introShortDescription {
+    font-size: 15px;
+    color: gray;
+    line-height: 5;
+}
+
+hr {
+    color: gray;
+    height: 0px;
+    width: 5%;
+    text-align: center;
+    border-top: 8px;
+    background-color: white;
+    border-style: dotted;
+
+}
